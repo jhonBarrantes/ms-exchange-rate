@@ -1,0 +1,18 @@
+# Description
+
+Service Exchange Rate
+
+## Currencies
+
+["PEN","USD","GBP","MXN","CHF","EUR","JPY]
+
+##Endpoint
+URL POST
+http://localhost:8080/exchange
+
+BODY
+{
+    "amount":"3200",
+    "originCurrency":"PEN",
+    "destinyCurrency":"USD"
+}
